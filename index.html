@@ -47,7 +47,7 @@
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const password = document.getElementById('password').value;
-            if (!name) { document.getElementById('nameError').textContent = 'Укажите имя'; valid = false; }
+            if (!name) { document.getElementById('nameError').textContent = 'Введите имя'; valid = false; }
             if (!email) { document.getElementById('emailError').textContent = 'Введите email'; valid = false; }
             else if (!email.includes('@')) { document.getElementById('emailError').textContent = 'Некорректный email'; valid = false; }
             if (!password) { document.getElementById('passwordError').textContent = 'Введите пароль'; valid = false; }
